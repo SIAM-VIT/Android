@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
@@ -35,9 +36,12 @@ public class MainActivity extends AppCompatActivity {
 
         TextView Operation = (TextView)findViewById(R.id.res);
         Operation.setText(result + "");
+
+        Toast.makeText(getApplicationContext(),"result "+result,Toast.LENGTH_SHORT).show();
     }
     public void clearText(View buttonView){
         TextView Operation = (TextView)findViewById(R.id.res);
         Operation.setText("");
+
     }
 }
