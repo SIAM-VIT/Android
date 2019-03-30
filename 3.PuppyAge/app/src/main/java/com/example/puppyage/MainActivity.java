@@ -9,6 +9,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.Calendar;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -26,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         EditText year = (EditText)findViewById(R.id.year);
         int yearOfBorn = Integer.parseInt(year.getText().toString());
         Log.i("Year",year.getText() + "");
-        int age = 2019 - yearOfBorn;
+        int age = Calendar.getInstance().get(Calendar.YEAR) - yearOfBorn;
         Toast.makeText(getApplicationContext(),"Age is"+age,Toast.LENGTH_SHORT);
         Log.i("Age",age + "");
 
