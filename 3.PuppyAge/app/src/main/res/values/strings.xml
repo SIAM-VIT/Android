@@ -1,4 +1,22 @@
 <resources>
     <string name="app_name">PuppyAge</string>
     <string name="btn1">Change the Image</string>
+    <string name="test1">Welcome to the Complete Android P App Developement Course</string>
+    <string name="btn2">Lets get started</string>
+    <string name="test2">Android App Development is awesome</string>
+    <string name="btn3">What do you think?</string>
+    <string name="test3">Java Programming is Fantastic</string>
+    <string name="btn4">Learn Java</string>
+
+    <string name="btun1">1</string>
+    <string name="btun2">2</string>
+    <string name="btun3">3</string>
+    <string name="btun4">4</string>
+    <string name="btun5">5</string>
+    <string name="btun6">6</string>
+    <string name="btun7">7</string>
+    <string name="btun8">8</string>
+    <string name="btun9">9</string>
+    <string name="btun10">10</string>
+
 </resources>
