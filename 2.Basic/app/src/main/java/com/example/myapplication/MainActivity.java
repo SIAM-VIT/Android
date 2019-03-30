@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         TextView Operation = (TextView)findViewById(R.id.res);
         Operation.setText(result + "");
 
-        Toast.makeText(getApplicationContext(),"result "+result,Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(),"result "+result+"\n"+"Bye Bye",Toast.LENGTH_SHORT).show();
     }
     public void clearText(View buttonView){
         TextView Operation = (TextView)findViewById(R.id.res);
