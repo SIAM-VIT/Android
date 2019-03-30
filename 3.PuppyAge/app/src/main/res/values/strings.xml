@@ -19,4 +19,8 @@
     <string name="btun9">9</string>
     <string name="btun10">10</string>
 
+    <string name="mainage">Enter your pet born Year</string>
+    <string name="btnmainage">Age</string>
+
+
 </resources>
