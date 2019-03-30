@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Hi Android Developer</string>
+    <string name="num1">Enter number 1</string>
+    <string name="num2">Enter number 2</string>
+    <string name="res">Result</string>
+    <string name="btn1">Division</string>
+    <string name="btn2">Multplication</string>
 </resources>
